@@ -6,4 +6,11 @@ pip3 install flask langchain chromadb
 pip3 install sentence-transformers openai
 ```
 - flask + langchain + chromadb + langchain을 사용한 프로젝트입니다.
-- API KEY는 반드시 자우고 push 
+
+## API KEY 설정법
+```
+.env 파일 생성
+
+OPENAI_API_KEY=자기 API KEY 입력
+돌림
+```
